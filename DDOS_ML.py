@@ -235,7 +235,7 @@ models.append(('Linear Discriminant Analysis - LDA', make_pipeline(StandardScale
 
 univar_algorithms_names = ['chi2', 'f_classif', 'mutual_info_classif']
 
-sample_amounts = [5000, 10000, 50000, 100000]
+sample_amounts = [5000, 10000, 50000]
 K_Best_All = [K_best_5000, K_best_10000, K_best_50000, K_best_100000]
 
 for sample_amount in sample_amounts:
